@@ -8,11 +8,27 @@
  
   <body>
     <form method="POST" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
-      <label>First Name: <input type="text" name="first_name_field"></label>
-      <label>Last Name: <input type="text" name="last_name_field"></label>
-      <label>Phone Number: <input type="text" name="phone_field"></label>
-      <label>Email Address: <input type="text" name="email_field"></label>
-      <label>Questions, comments, or concerns?<textarea cols="30" rows="5" name="comments_field"></label>
+      <fieldset>
+      <legend>My Info</legend>
+        <div>
+          <label>First Name: <input type="text" name="first_name_field"></label>
+        </div>
+        <div>
+          <label>Last Name: <input type="text" name="last_name_field"></label>
+        </div>
+        <div>
+          <label>Phone Number: <input type="text" name="phone_field"></label>
+        </div>
+        <div>
+          <label>Email Address: <input type="email" name="email_field"></label>
+        </div>
+        <div>
+        <label for="comments">Questions, comments, or concerns?</label>
+          <textarea cols="30" rows="5" name="comments_field" id="comments"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+      </fieldset>
     </form>
   </body>
   
