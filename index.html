@@ -23,10 +23,6 @@
           <label>Email Address: <input type="email" name="email_field"></label>
         </div>
         <div>
-        <label for="comments">Questions, comments, or concerns?</label>
-          <textarea cols="30" rows="5" name="comments_field" id="comments"></textarea>
-        </div>
-        <div>
           <label>Male <input type="radio" name="gender_field" value="Male"></label>
           <label>Female <input type="radio" name="gender_field" value="Female"></label>
           <label>Prefer not to say <input type="radio" name="gender_field" value="Prefer not to say"></label>
@@ -36,7 +32,17 @@
       <fieldset>
       <legend>My Availability</legend>
         <div>
-          
+          <label>Sunday <input type="checkbox" name="available_field[]" value="Sunday"></label><br>
+          <label>Monday <input type="checkbox" name="available_field[]" value="Monday"></label><br>
+          <label>Tuesday <input type="checkbox" name="available_field[]" value="Tuesday"></label><br>
+          <label>Wednesday <input type="checkbox" name="available_field[]" value="Wednesday"></label><br>
+          <label>Thursday <input type="checkbox" name="available_field[]" value="Thursday"></label><br>
+          <label>Friday <input type="checkbox" name="available_field[]" value="Friday"></label><br>
+          <label>Saturday <input type="checkbox" name="available_field[]" value="Saturday"></label><br>
+        </div>
+        <div>
+        <label for="comments">Questions, comments, or concerns?</label>
+          <textarea cols="30" rows="5" name="comments_field" id="comments"></textarea>
         </div>
       </fieldset>
       <input type="submit" value="!!!Click HERE to win a FREE iPad!!!">
